@@ -44,11 +44,10 @@ section article > * {
     width: 20px;
     height: auto;
     vertical-align: middle;
-    text-align: left;
 }
 
 #contacts article ul li a {
-    padding: 0 5px;
+    padding-left: 5px;
 }
 
 #skills div {
@@ -83,4 +82,10 @@ section article > * {
 
 #workExperience article section p {
     padding: 0 30px;
+}
+
+#references article img {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
 }
