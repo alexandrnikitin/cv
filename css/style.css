@@ -15,76 +15,61 @@ body {
     padding: 10px
 }
 
-section {
+.b-section {
     font-size: 0.9em;
     margin: 10px 0 20px;
     overflow: hidden;
 }
 
-section article > h1 {
+.b-section .b-section-header {
     font-size: 1.25em;
     margin-bottom: 10px;
     padding: 0 5px 0;
 }
 
-section article > * {
+.b-section .b-section-content {
+    font-size: 0.9em;
     line-height: 1.5em;
     padding: 0 20px 5px;
 }
 
-#introduction article h1 {
+.b-section-header.big {
     font-size: 1.7em;
 }
 
-#introduction article h2 {
+.b-section-content.grey {
     color: #696969;
 }
 
-#contacts article ul li img {
+.b-contact img {
     width: 20px;
     height: auto;
     vertical-align: middle;
 }
 
-#contacts article ul li a {
+.b-contact a {
     padding-left: 5px;
 }
 
-#skills div {
-    padding: 0 20px 5px;
-}
-
-/*#skills div span {
-    background: #dfdfdf;
-    display: inline;
-    margin: 10px 4px;
-    padding: 4px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35);
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35);
-    cursor: default
-}*/
-
-#skills .advanced {
+.b-skill.advanced {
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
-#skills .intermediate {
-    font-size: 0.8em;
+.b-skill.intermediate {
+    font-size: 0.9em;
 }
 
-#workExperience article section h1 {
+.b-project .b-project-header {
     font-weight: bold;
     text-decoration: underline;
 }
 
-#workExperience article section p {
+.b-project .b-project-description {
     padding: 0 30px;
 }
 
-#references article img {
+.b-reference img {
     width: 20px;
     height: auto;
     vertical-align: middle;
