@@ -21,25 +21,25 @@ body {
     overflow: hidden;
 }
 
-.b-section .b-section-header {
-    font-size: 1.25em;
-    margin-bottom: 10px;
-    padding: 0 5px 0;
-}
+    .b-section__header {
+        font-size: 1.25em;
+        margin-bottom: 10px;
+        padding: 0 5px 0;
+    }
 
-.b-section .b-section-content {
-    font-size: 0.9em;
-    line-height: 1.5em;
-    padding: 0 20px 5px;
-}
+    .b-section__header--big {
+        font-size: 1.7em;
+    }
 
-.b-section-header.big {
-    font-size: 1.7em;
-}
+    .b-section__content {
+            font-size: 0.9em;
+            line-height: 1.5em;
+            padding: 0 20px 5px;
+        }
 
-.b-section-content.grey {
-    color: #696969;
-}
+    .b-section__content--grey {
+        color: #696969;
+    }
 
 .b-contact img {
     width: 20px;
@@ -51,21 +51,21 @@ body {
     padding-left: 5px;
 }
 
-.b-skill.advanced {
+.b-skill--advanced {
     font-weight: bold;
     font-size: 1.1em;
 }
 
-.b-skill.intermediate {
+.b-skill--intermediate {
     font-size: 0.9em;
 }
 
-.b-project .b-project-header {
+.b-project__header {
     font-weight: bold;
     text-decoration: underline;
 }
 
-.b-project .b-project-description {
+.b-project__description {
     padding: 0 30px;
 }
 
