@@ -1,7 +1,6 @@
 /** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
 
-/*   MAIN STYLES   */
 html {
     background: #FCFCFC;
     color: #333;
@@ -12,65 +11,51 @@ html {
 body {
     height: 100%;
     margin: 0 auto;
-    max-width: 978px;
+    max-width: 700px;
     padding: 10px
-}
-
-/*   CONTENT   */
-body h1 {
-    font-size: 1.9em;
-}
-
-body h2 {
-    font-size: 1.3em;
 }
 
 section {
     font-size: 0.9em;
-    margin: 30px 0;
+    margin: 10px 0 20px;
     overflow: hidden;
 }
 
-section h1 {
+section article > h1 {
     font-size: 1.25em;
     margin-bottom: 10px;
-    padding-left: 5px;
+    padding: 0 5px 0;
 }
 
-section p {
+section article > * {
     line-height: 1.5em;
     padding: 0 20px 5px;
 }
 
-#introduction h1 {
-    padding: 10px;
+#introduction article h1 {
+    font-size: 1.7em;
 }
 
-#introduction h2 {
+#introduction article h2 {
     color: #696969;
 }
 
-#contacts article {
-    margin: 10px 0;
-}
-
-#contacts article div {
-    display: inline;
-}
-
-#contacts article img {
-    width:32px;
+#contacts article ul li img {
+    width: 20px;
     height: auto;
-    margin-right: 5px;
     vertical-align: middle;
     text-align: left;
+}
+
+#contacts article ul li a {
+    padding: 0 5px;
 }
 
 #skills div {
     padding: 0 20px 5px;
 }
 
-#skills div span {
+/*#skills div span {
     background: #dfdfdf;
     display: inline;
     margin: 10px 4px;
@@ -80,7 +65,7 @@ section p {
     -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35);
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35);
     cursor: default
-}
+}*/
 
 #skills .advanced {
     font-weight: bold;
@@ -91,10 +76,11 @@ section p {
     font-size: 0.8em;
 }
 
-#education h2 {
-    padding-left: 20px;
+#workExperience article section h1 {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
-#education p {
-    padding-top: 5px;
+#workExperience article section p {
+    padding: 0 30px;
 }
