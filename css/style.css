@@ -1,45 +1,40 @@
 /** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
 
-html {
+.b-page {
     background: #FCFCFC;
     color: #333;
     font-family: 'PT Sans', sans-serif;
     height: 100%;
-}
-
-body {
-    height: 100%;
     margin: 0 auto;
-    max-width: 700px;
-    padding: 10px
+    min-width: 480px;
+    max-width: 600px;
+    padding: 0;
 }
 
-.b-section {
-    font-size: 0.9em;
-    margin: 10px 0 20px;
+.b-cv__section {
+    padding: 10px 0 20px;
     overflow: hidden;
 }
 
     .b-section__header {
         font-size: 1.25em;
         margin-bottom: 10px;
-        padding: 0 5px 0;
     }
 
-    .b-section__header--big {
-        font-size: 1.7em;
-    }
-
-    .b-section__content {
-            font-size: 0.9em;
-            line-height: 1.5em;
-            padding: 0 20px 5px;
+        .b-section__header--big {
+            font-size: 1.7em;
         }
 
-    .b-section__content--grey {
-        color: #696969;
+    .b-section__content {
+        font-size: 0.9em;
+        line-height: 1.5em;
+        padding: 0 20px;
     }
+
+        .b-section__content--grey {
+            color: #696969;
+        }
 
 .b-contact img {
     width: 20px;
@@ -51,14 +46,37 @@ body {
     padding-left: 5px;
 }
 
-.b-skill--advanced {
-    font-weight: bold;
-    font-size: 1.1em;
-}
+.b-skills {
 
-.b-skill--intermediate {
-    font-size: 0.9em;
 }
+    .b-skills__group {
+        /*display: inline;*/
+    }
+
+    .b-skills__header {
+        text-decoration: underline;
+        display: inline;
+    }
+
+    .b-skills__content {
+        display: inline;
+    }
+
+        .b-skill {
+            margin: 0 2px;
+        }
+
+            .b-skill--advanced {
+                font-weight: bold;
+            }
+
+            .b-skill--intermediate {
+                font-size: 0.9em;
+            }
+
+            .b-skill--beginner {
+                font-size: 0.75em;
+            }
 
 .b-project__header {
     font-weight: bold;
@@ -73,4 +91,8 @@ body {
     width: 20px;
     height: auto;
     vertical-align: middle;
+}
+
+.a-joke {
+    text-decoration-line: line-through;
 }

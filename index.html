@@ -5,18 +5,22 @@
     <title>Alexandr Nikitin - Curriculum Vitae</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body class="b-page">
 
-<div class="b-section">
-    <div class="b-section__header--big">Alexandr Nikitin</div>
-    <div class="b-section__content--grey">.NET Software Engineer</div>
+<div class="b-cv">
+
+<div class="b-cv__section">
+    <div class="b-section">
+        <div class="b-section__header b-section__header--big">Alexandr Nikitin</div>
+        <div class="b-section__content b-section__content--grey">.NET Software Engineer</div>
+    </div>
 </div>
 
-<div class="b-section">
+<div class="b-cv__section">
     <div class="b-section__content">
         <ul>
             <li class="b-contact">
-                <img src="images/email.png" alt="Email"/>
+                <img src="images/gmail.png" alt="Email"/>
                 <a href="mailto:nikitin.alexandr.a@gmail.com">nikitin.alexandr.a@gmail.com</a>
             </li>
             <li class="b-contact">
@@ -39,7 +43,7 @@
     </div>
 </div>
 
-<div class="b-section">
+<div class="b-cv__section">
 
     <div class="b-section__header">About Me</div>
 
@@ -55,37 +59,83 @@
             perfectionist.</p>
 
         <p>Looking for opportunities to join a small strong team
-            that desires to <span style="text-decoration: line-through">change the world</span>
-            do things better.</p>
+            that desires to <span class="a-joke">take over the world</span>
+            do things <span title="better things, better than others do, better than a months ago, just better :)">better </span>.</p>
     </div>
 </div>
 
-<div class="b-section">
+<div class="b-cv__section">
     <div class="b-section__header">Skills</div>
 
     <div class="b-section__content">
-        <span class="b-skill--advanced">.NET</span>
-        <span class="b-skill--advanced">C#</span>
-        <span class="b-skill--advanced">SQL</span>
+        <div class="b-skills">
+            <div class="b-skills__group">
+                <span class="b-skills__header">Technologies:</span>
+                <div class="b-skills__content">
+                    <span class="b-skill b-skill--advanced">.NET</span>
+                    <span class="b-skill b-skill--advanced">C#</span>
+                    <span class="b-skill b-skill--advanced">SQL</span>
+                    <span class="b-skill b-skill--intermediate">NoSQL</span>
+                    <span class="b-skill b-skill--beginner">Javascript</span>
+                </div>
+            </div>
+            <div class="b-skills__group">
+                <span class="b-skills__header">Databases:</span>
+                <div class="b-skills__content">
+                    <span class="b-skill b-skill--advanced">MSSQL</span>
+                    <span class="b-skill b-skill--intermediate">AzureTables</span>
+                    <span class="b-skill b-skill--intermediate">AzureSQL</span>
+                    <span class="b-skill b-skill--advanced">Sybase ASE/ASA</span>
+                    <span class="b-skill b-skill--beginner">PostgreSQL</span>
+                </div>
+            </div>
+            <div class="b-skills__group">
+                <span class="b-skills__header">Infrastructure:</span>
+                <div class="b-skills__content">
+                    <span class="b-skill b-skill--intermediate">Azure</span>
+                    <span class="b-skill b-skill--intermediate">AzureServiceBus</span>
+                </div>
+            </div>
+            <div class="b-skills__group">
+                <span class="b-skills__header">UI:</span>
+                <div class="b-skills__content">
+                    <span class="b-skill b-skill--intermediate">Winforms</span>
+                    <span class="b-skill b-skill--intermediate">HTML</span>
+                    <span class="b-skill b-skill--beginner">CSS</span>
+                </div>
+            </div>
+            <div class="b-skills__group">
+                <span class="b-skills__header">Development:</span>
+                <div class="b-skills__content">
+                    <span class="b-skill b-skill--advanced" title="Google Driven Development">GDD</span>
+                    <span class="b-skill b-skill--advanced">Agile/Scrumbut/Kanban</span>
+                    <span class="b-skill b-skill--intermediate">CI>CD</span>
+                    <span class="b-skill b-skill--advanced">TDD</span>
+                    <span class="b-skill b-skill--intermediate">BDD</span>
+                    <span class="b-skill b-skill--intermediate">Git</span>
+                    <span class="b-skill b-skill--advanced">TFS</span>
 
-        <span class="b-skill--intermediate">HTML</span>
-        <span class="b-skill--intermediate">CSS</span>
-        <span class="b-skill--intermediate">Javascript</span>
-
-        <span class="b-skill--intermediate">Winforms</span>
-
-        <span class="b-skill--intermediate">Azure</span>
-
-        <span class="b-skill--intermediate">Git</span>
-        <span class="b-skill--intermediate">TFS</span>
-
-        <span class="b-skill--advanced">TDD</span>
-        <span class="b-skill--intermediate">BDD</span>
-        <span class="b-skill--advanced" title="Google Driven Development">GDD</span>
+                    <span class="b-skill b-skill--advanced">Jira</span>
+                </div>
+            </div>
+            <div class="b-skills__group">
+                <span class="b-skills__header">Stack:</span>
+                <div class="b-skills__content">
+                    <span class="b-skill b-skill--advanced">ASP.NET MVC</span>
+                    <span class="b-skill b-skill--advanced">EntityFramework</span>
+                    <span class="b-skill b-skill--intermediate">WCF</span>
+                    <span class="b-skill b-skill--advanced">Autofac</span>
+                    <span class="b-skill b-skill--advanced">NSubstitute</span>
+                    <span class="b-skill b-skill--advanced">NUnit/xUnit</span>
+                    <span class="b-skill b-skill--intermediate">MSBuild</span>
+                    <span class="b-skill b-skill--intermediate">Topshelf</span>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="b-section">
+<div class="b-cv__section">
     <div class="b-section__header">Work Experience</div>
 
     <div class="b-section__content">
@@ -205,7 +255,7 @@
     </div>
 </div>
 
-<div class="b-section">
+<div class="b-cv__section">
     <div class="b-section__header">References</div>
 
     <div class="b-section__content">
@@ -236,7 +286,7 @@
     </div>
 </div>
 
-<div class="b-section">
+<div class="b-cv__section">
     <div class="b-section__header">Education</div>
 
     <div class="b-section__content">
@@ -246,7 +296,7 @@
     </div>
 </div>
 
-<div class="b-section">
+<div class="b-cv__section">
     <div class="b-section__header">Hobbies & Interests</div>
 
     <div class="b-section__content">
@@ -263,6 +313,6 @@
         </ul>
     </div>
 </div>
-
+</div>
 </body>
 </html>
