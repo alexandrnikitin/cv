@@ -78,23 +78,31 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
                 font-size: 0.75em;
             }
 
-.b-project__header {
-    font-weight: bold;
-    text-decoration: underline;
+.b-projects .b-project {
+    margin-bottom: 5px;
 }
 
-.b-project__description {
-    padding: 0 30px;
-}
+    .b-projects .b-project:last-child{
+        margin-bottom: 0;
+    }
 
-    .b-project__description .title{
+    .b-project__header {
+        font-weight: bold;
         text-decoration: underline;
     }
 
-    .b-project__description ul {
-        margin-left: 20px;
-        list-style: square;
+    .b-project__description {
+        padding-left: 30px;
     }
+
+        .b-project-description__header{
+            text-decoration: underline;
+        }
+
+        .b-project__description__achievements {
+            margin-left: 20px;
+            list-style: square;
+        }
 
 .b-reference img {
     width: 20px;

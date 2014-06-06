@@ -103,6 +103,7 @@
 
                 <div class="b-skills__content">
                     <span class="b-skill b-skill--intermediate">Azure</span>
+                    <span class="b-skill b-skill--intermediate">AmazonWebServices</span>
                     <span class="b-skill b-skill--intermediate">AzureServiceBus</span>
                 </div>
             </div>
@@ -143,6 +144,7 @@
                     <span class="b-skill b-skill--advanced">NUnit/xUnit</span>
                     <span class="b-skill b-skill--intermediate">MSBuild</span>
                     <span class="b-skill b-skill--intermediate">Topshelf</span>
+                    <span class="b-skill b-skill--intermediate">jQuery</span>
                 </div>
             </div>
         </div>
@@ -152,7 +154,7 @@
 <div class="b-cv__section">
     <div class="b-section__header">Work Experience</div>
 
-    <div class="b-section__content">
+    <div class="b-section__content b-projects">
         <div class="b-project">
             <div class="b-project__header">
                 Sep 2013 - Mar 2014, Senior .NET developer at
@@ -160,32 +162,41 @@
                 <span>Belarus, Minsk</span>
             </div>
             <div class="b-project__description">
-                <p>
-                    <span class="title">Project:</span>
-                    <a href="http://themobilehub.com/">the MobileHub</a>,
-                    <span>UK, London.</span>
-                    A high-load mobile affiliate network system (~ 1M redirects per day).
-                    Modules: Traffic redirector, customer website with reports,
-                    Webservices for integration with 3rd parties.
-                </p>
+                <div class="b-project-description">
+                    <p>
+                        <span class="b-project-description__header">Project:</span>
+                        <a href="http://themobilehub.com/">the MobileHub</a>,
+                        <span>UK, London.</span>
+                        A high-load mobile affiliate network system (~1M redirects per day).
+                        Modules: Traffic redirector, customer website with reports,
+                        Webservices for integration with 3rd parties.
+                    </p>
 
-                <span class="title">Achievements:</span>
-                <ul>
-                    <li>
-                        Rewrote key module Redirector from scratch which was caused
-                        by performance reasons. Introduced design changes into the
-                        project using CQRS, Event Sourcing design patterns following
-                        DDD approach. Made it distributed using NoSql and ServiceBus
-                        which improved performance and scalability.
-                    </li>
-                    <li>
-                        Introduced acceptance testing into development process.
-                    </li>
-                    <li>
-                        Introduced Kanban technique into development process /
-                        timid steps to Continuous Delivery.
-                    </li>
-                </ul>
+                    <span class="b-project-description__header">Achievements:</span>
+                    <ul class="b-project__description__achievements">
+                        <li>
+                            Rewrote key module - Redirector from scratch which was caused
+                            by performance reasons. Introduced design changes into the
+                            project using CQRS, Event Sourcing design patterns following
+                            DDD approach. Made it distributed using NoSql and ServiceBus
+                            which improved performance and scalability.
+                        </li>
+                        <li>
+                            Introduced acceptance testing into development process.
+                        </li>
+                        <li>
+                            Introduced Kanban technique into development process /
+                            timid steps to Continuous Delivery.
+                        </li>
+                    </ul>
+                    <div>
+                        <p>Technologies: .NET 4.5, C#, T-SQL, NoSql</p>
+                        <p>Databases: AzureSql, AzureTables</p>
+                        <p>Infrastructure: Azure, AzureServiceBus</p>
+                        <p>Development: Kanban, DDD, CQRS, Event Sourcing, TFS, Jira</p>
+                        <p>Stack: ASP.NET MVC, Entity Framework, WCF, Autofac, NSubstitute, xUnit, Miniprofiler</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="b-project">
@@ -196,18 +207,18 @@
             </div>
             <div class="b-project__description">
                 <p>
-                    <span class="title">Project:</span>
+                    <span class="b-project-description__header">Project:</span>
                     <a href="http://www.mobjizz.com/">MobJizz</a>,
                     <span>UK, London.</span>
 
-                    A high-load entertaining webportal (up to 2M unique users per day).
+                    A high-load entertaining webportal in adult industry (up to 2M unique users per day).
                     Modules: Traffic redirector, End-user website, Webservices for integration with 3rd parties,
                     Reporting
                     system.
                 </p>
 
-                <span class="title">Achievements:</span>
-                <ul>
+                <span class="b-project-description__header">Achievements:</span>
+                <ul class="b-project__description__achievements">
                     <li>
                         Made integrations with 3rd party content provider service (AdultCentro),
                         a purchase verification service (GVI), a mobile billing service (Velti).
@@ -224,14 +235,13 @@
                         Refactored code and DB models to be able to write unit tests.
                     </li>
                 </ul>
-
-                <p>
-                    Technologies:.NET 4.0, C#, T-SQL
-                    Stack: ASP.NET MVC 3, WCF, LINQ, Entity Framework, Linq2Sql, Autofac, NSubstitute, NUnit, JQuery,
-                    Topshelf, MSBuild, Miniprofiler, Elmah, NxBRE.
-                    Databases: MS SQL Server 2008 R2
-                    Minor: HTML, CSS, Javascript.
-                </p>
+                <div>
+                    <p>Technologies: .NET 4.0, C#, T-SQL</p>
+                    <p>Databases: MS SQL Server 2008 R2</p>
+                    <p>UI: HTML, CSS, Javascript, jQuery</p>
+                    <p>Development: Scrumbut, TDD, TFS, Jira</p>
+                    <p>Stack: ASP.NET MVC, WCF, Entity Framework, Linq2Sql, Autofac, Moq, NSubstitute, NUnit, Topshelf, MSBuild, Miniprofiler, Elmah, NxBRE.</p>
+                </div>
             </div>
         </div>
         <div class="b-project">
@@ -240,21 +250,24 @@
             </div>
             <div class="b-project__description">
                 <p>
-                    <span class="title">Project:</span> Numerous of small projects.
+                    <span class="b-project-description__header">Project:</span> Numerous of small projects.
                 </p>
-
-                <p>
+                <span class="b-project-description__header">
                     Achievements:
-                    - Developed a module for Orchard Cms that shows financial data.
-                    - Developed a wrapper for Yahoo.com Message boards to automate message posting.
-                    - Developed a wrapper for Justanswer.com to speed up answering to questions.
-                    - Developed several client-server applications
-                    - Developed about 20 applications for trading automation on financial markets.
-
-                    Technologies:.NET 2.0/3.5, C#, T-SQL, Mql4, NinjaScript
-                    Stack: Winforms, ASP.NET MVC 3, LINQ, Linq2Sql, JustMock, MSTest, HtmlAgilityPack, WatiN
-                    Databases: MS SQL Server 2005/2008, SQL CE
-                </p>
+                </span>
+                <ul class="b-project__description__achievements">
+                    <li>Developed a module for Orchard Cms that shows financial data.</li>
+                    <li>Developed a wrapper for Yahoo.com Message boards to automate message posting.</li>
+                    <li>Developed a wrapper for Justanswer.com to speed up answering to questions.</li>
+                    <li>Developed a few client-server applications</li>
+                    <li>Developed about 20 applications for trading automation on financial markets.</li>
+                </ul>
+                <div>
+                    <p>Technologies: .NET 2.0/3.5, C#, T-SQL, Mql4, NinjaScript</p>
+                    <p>Databases: MS SQL Server 2005/2008, SQL CE</p>
+                    <p>UI: Winforms, HTML, CSS, Javascript, jQuery</p>
+                    <p>Stack: ASP.NET MVC, Linq2Sql, JustMock, MSTest, HtmlAgilityPack, WatiN.</p>
+                </div>
             </div>
         </div>
         <div class="b-project">
@@ -264,30 +277,30 @@
                 <span>Russia, Moscow</span>
             </div>
 
-            <div class="b-project__description"><p>
-                Project: Automated banking system.
-            </p>
-
+            <div class="b-project__description">
                 <p>
+                    <span class="b-project-description__header">Project:</span> Automated banking system.
+                </p>
+                <span class="b-project-description__header">
                     Achievements:
-                    - Developed a module of securities with full life cycle including accounting / posting of bank's own
-                    and
-                    clients' operations, portfolios of securities, journals of securities, positions of securities and
-                    money.
-                    - Developed several loaders of information (deals, rates) into ABS from different sources.
-                    - Did work on optimization and refactoring the database. Optimized over 200 stored procedures.
-                    Introduced
-                    architectural changes into the system.
-                    - Developed a module that exports reports to MS Word/Excel file basing on any MS Word/Excel template
-                    document.
-                    - Developed around 50 different reports.
-                    - Developed a .NET Winforms application that aggregated suspect foreign currency transaction from
-                    all
-                    branches to one database for further analysis.
-
-                    Technologies: Sybase PowerBuilder PowerScript, T-SQL, PL/pgSQL, .NET 2.0
-                    Databases: MS SQL Server 2000, Sybase ASE 12 / ASA 9, Oracle, Postgresql.
-                </p></div>
+                </span>
+                <ul class="b-project__description__achievements">
+                    <li>Developed a module of securities with full life cycle including accounting / posting of bank's own
+                        and clients' operations, portfolios of securities, journals of securities, positions of securities and
+                        money.
+                    </li>
+                    <li>Developed a module that exports reports to MS Word/Excel file basing on any MS Word/Excel template
+                        document.</li>
+                    <li>Developed several loaders of information (deals, rates) into ABS from different sources.</li>
+                    <li>Did work on optimization and refactoring the database. Optimized over 200 stored procedures.
+                        Introduced architectural changes into the system.</li>
+                    <li>Developed around 50 different reports.</li>
+                </ul>
+                <div>
+                    <p>Technologies: Sybase PowerBuilder PowerScript, T-SQL, PL/pgSQL, .NET 2.0</p>
+                    <p>Databases: Sybase ASE 12 / ASA 9, MS SQL Server 2000, Oracle, Postgresql</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
