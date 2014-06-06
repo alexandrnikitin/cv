@@ -44,23 +44,30 @@
 </div>
 
 <div class="b-cv__section">
-
     <div class="b-section__header">About Me</div>
 
     <div class="b-section__content">
-        <p>Software developer since 2007. Worked for enterprise, outsource, startup companies
-            and as a freelancer for customers from different countries.</p>
+        <p>
+            Software developer since 2007. Worked for enterprise, outsource, startup companies
+            and as a freelancer for customers from various countries.
+        </p>
 
-        <p>Focus on server-side, back-end and database development.
+        <p>
+            Focus on server-side, back-end and database development.
             Strong experience in creating scalable, distributed, fail-safe
-            and performance services and applications.</p>
+            and fast services and applications.
+        </p>
 
-        <p>TDD adherent, master of <span title="Google Driven Development">GDD</span> and
-            perfectionist.</p>
+        <p>
+            TDD adherent, master of <span title="Google Driven Development">GDD</span> and
+            perfectionist.
+        </p>
 
-        <p>Looking for opportunities to join a small strong team
+        <p>
+            Looking for opportunities to join a small strong team
             that desires to <span class="a-joke">take over the world</span>
-            do things <span title="better things, better than others do, better than a months ago, just better :)">better </span>.</p>
+            do things <span title="better things, better than others do, better than a year ago, just better :)">better </span>.
+        </p>
     </div>
 </div>
 
@@ -71,6 +78,7 @@
         <div class="b-skills">
             <div class="b-skills__group">
                 <span class="b-skills__header">Technologies:</span>
+
                 <div class="b-skills__content">
                     <span class="b-skill b-skill--advanced">.NET</span>
                     <span class="b-skill b-skill--advanced">C#</span>
@@ -81,6 +89,7 @@
             </div>
             <div class="b-skills__group">
                 <span class="b-skills__header">Databases:</span>
+
                 <div class="b-skills__content">
                     <span class="b-skill b-skill--advanced">MSSQL</span>
                     <span class="b-skill b-skill--intermediate">AzureTables</span>
@@ -91,6 +100,7 @@
             </div>
             <div class="b-skills__group">
                 <span class="b-skills__header">Infrastructure:</span>
+
                 <div class="b-skills__content">
                     <span class="b-skill b-skill--intermediate">Azure</span>
                     <span class="b-skill b-skill--intermediate">AzureServiceBus</span>
@@ -98,6 +108,7 @@
             </div>
             <div class="b-skills__group">
                 <span class="b-skills__header">UI:</span>
+
                 <div class="b-skills__content">
                     <span class="b-skill b-skill--intermediate">Winforms</span>
                     <span class="b-skill b-skill--intermediate">HTML</span>
@@ -106,12 +117,14 @@
             </div>
             <div class="b-skills__group">
                 <span class="b-skills__header">Development:</span>
+
                 <div class="b-skills__content">
                     <span class="b-skill b-skill--advanced" title="Google Driven Development">GDD</span>
                     <span class="b-skill b-skill--advanced">Agile/Scrumbut/Kanban</span>
                     <span class="b-skill b-skill--intermediate">CI>CD</span>
                     <span class="b-skill b-skill--advanced">TDD</span>
                     <span class="b-skill b-skill--intermediate">BDD</span>
+                    <span class="b-skill b-skill--intermediate">DDD</span>
                     <span class="b-skill b-skill--intermediate">Git</span>
                     <span class="b-skill b-skill--advanced">TFS</span>
 
@@ -120,6 +133,7 @@
             </div>
             <div class="b-skills__group">
                 <span class="b-skills__header">Stack:</span>
+
                 <div class="b-skills__content">
                     <span class="b-skill b-skill--advanced">ASP.NET MVC</span>
                     <span class="b-skill b-skill--advanced">EntityFramework</span>
@@ -147,15 +161,31 @@
             </div>
             <div class="b-project__description">
                 <p>
-                    Project:
+                    <span class="title">Project:</span>
                     <a href="http://themobilehub.com/">the MobileHub</a>,
-                    <span>UK, London</span>
-                    A high-load mobile affiliate network (~ 1M redirects per day)
-
+                    <span>UK, London.</span>
+                    A high-load mobile affiliate network system (~ 1M redirects per day).
+                    Modules: Traffic redirector, customer website with reports,
+                    Webservices for integration with 3rd parties.
                 </p>
 
-                <p>
-                </p>
+                <span class="title">Achievements:</span>
+                <ul>
+                    <li>
+                        Rewrote key module Redirector from scratch which was caused
+                        by performance reasons. Introduced design changes into the
+                        project using CQRS, Event Sourcing design patterns following
+                        DDD approach. Made it distributed using NoSql and ServiceBus
+                        which improved performance and scalability.
+                    </li>
+                    <li>
+                        Introduced acceptance testing into development process.
+                    </li>
+                    <li>
+                        Introduced Kanban technique into development process /
+                        timid steps to Continuous Delivery.
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="b-project">
@@ -166,7 +196,7 @@
             </div>
             <div class="b-project__description">
                 <p>
-                    <b>Project:</b>
+                    <span class="title">Project:</span>
                     <a href="http://www.mobjizz.com/">MobJizz</a>,
                     <span>UK, London.</span>
 
@@ -176,17 +206,24 @@
                     system.
                 </p>
 
-                <p>
-                    Achievements:
-                    - Made few integrations with 3rd party content provider service (AdultCentro), a purchase
-                    verification
-                    service, a mobile billing service.
-                    - Worked on end-user website optimizations and decreased site load during peak time from ~3 seconds
-                    to
-                    ~0.5s.
-                    - Improved in-house android application generation process by introducing pool of applications.
-                    - Refactored code and DB models to be able to write unit tests.
-                </p>
+                <span class="title">Achievements:</span>
+                <ul>
+                    <li>
+                        Made integrations with 3rd party content provider service (AdultCentro),
+                        a purchase verification service (GVI), a mobile billing service (Velti).
+                    </li>
+                    <li>
+                        Worked on end-user website optimizations and decreased site load during
+                        peak time from ~3 seconds to ~0.5s.
+                    </li>
+                    <li>
+                        Improved in-house android application generation process by introducing
+                        pool of applications.
+                    </li>
+                    <li>
+                        Refactored code and DB models to be able to write unit tests.
+                    </li>
+                </ul>
 
                 <p>
                     Technologies:.NET 4.0, C#, T-SQL
@@ -203,7 +240,7 @@
             </div>
             <div class="b-project__description">
                 <p>
-                    Project: Numerous of small projects.
+                    <span class="title">Project:</span> Numerous of small projects.
                 </p>
 
                 <p>
