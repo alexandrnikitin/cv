@@ -103,7 +103,7 @@ I have several useful libraries and numerous contributions on github. [Take a lo
 
 ### Public Fails
 
-I show up as a public speaker occasionally. I've spoken several times at internal (un)conferences and external meetups. You can find [some slides on github](https://github.com/alexandrnikitin/slides). There's [a video publicly available on youtube](https://www.youtube.com/watch?v=Yp4yQQqb2VI) if you want to take a look at me. I've led few workshops, you can find [some materials on github too](https://github.com/alexandrnikitin/workshops). I write [a blog and enjoy doing it](https://alexandrnikitin.github.io/blog/).
+I show up as a public speaker occasionally. I've spoken several times at internal (un)conferences and also at external meetups and conferences. You can find [some slides on github](https://github.com/alexandrnikitin/slides). There's [a conference video publicly available on youtube](https://www.youtube.com/watch?v=Yp4yQQqb2VI) if you want to take a look at me. I've led a few workshops, you can find [some materials on github too](https://github.com/alexandrnikitin/workshops). I write [a blog and enjoy doing it](https://alexandrnikitin.github.io/blog/).
 
 ### Hobbies & Interests
 
