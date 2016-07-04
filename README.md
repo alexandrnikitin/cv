@@ -16,7 +16,7 @@ I'm a Software Engineer at Adform focused on server-side, back-end and database 
 ### Credo
 
 * I do believe in the Engineering-driven culture. The culture where engineers decide what to do and how to do it [to achieve the goals](https://alexandrnikitin.github.io/blog/cross-device-wheel-the-beginning/). This is the most efficient way to build high-quality software.  
-* I do believe in the open-source model and [enjoy contributing to open-source projects.](https://alexandrnikitin.github.io/cv/#OS)  
+* I do believe in the open-source model and [enjoy contributing to open-source projects.](https://github.com/alexandrnikitin/cv#open-source)  
 * I do believe in fast feedback cycles in software. `Pair programming -> Unit tests -> Code review -> Continuous Integration -> Continuous Deployment`, the development process is much more important than methodologies or management.  
 * I do believe in automated tests [but don't abuse them please.](https://alexandrnikitin.github.io/blog/a-single-purpose-of-automated-testing/)
 
