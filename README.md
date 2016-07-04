@@ -40,17 +40,18 @@ Stack: ASP.NET MVC, WCF, Winforms, Entity Framework, Docker, Mesos, Storm
 ### Work Experience
 
 ##### Jul 2014 - Present, Senior Software Engineer at "Adform", Lithuania, Vilnius
-**Project: Real-time bidding, Demand Side Platform, A high-load and low latency platform to facilitate buying of online advertising.** It can handle more than 1 Million RPS with latencies below 50ms.  
+
+**Project:** Real-time bidding, Demand Side Platform, A high-load and low latency platform to facilitate buying of online advertising. It can handle more than 1 Million RPS with latencies below 50ms.  
 Technologies: .NET 4.5, C#, T-SQL, NoSQL  
 Databases: Aerospike, Cassandra, MSSQL  
 
-**Project: Cross-Device Audience Management, a system that gives the ability to target and recognize users across their different devices.** I handled the technical lead role and we were building the platform from scratch. We could handle 1.2M RPS with a persistent database call on 4 API nodes and 4 database nodes. Ask me how :smile:  
+**Project:** Cross-Device Audience Management, a system that gives the ability to target and recognize users across their different devices. I handled the technical lead role and we were building the platform from scratch. We could handle 1.2M RPS with a persistent database call on 4 API nodes and 4 database nodes. Ask me how :smile:  
 Technologies: Scala, JVM, NoSQL  
 Databases: Aerospike, MSSQL  
 Stack: Netty, Akka, Akka Streams, Kafka, Storm    
 
 ##### Jun 2012 - Mar 2014, Senior .NET developer at "Ciklum", Belarus, Minsk
-**Project: the MobileHub, UK, London. A high-load mobile affiliate network system (~1M users per day).** Modules: Traffic redirector, customer website with reports, Webservices for integration with 3rd parties.
+**Project:** the MobileHub, UK, London. A high-load mobile affiliate network system (~1M users per day). Modules: Traffic redirector, customer website with reports, Webservices for integration with 3rd parties.
 
 Rewrote key module (Redirector) from scratch which was caused by performance reasons. Introduced design changes into the project using CQRS, Event Sourcing design patterns following DDD approach. Made the system distributed using NoSql, ServiceBus, WorkerRoles which improved performance and scalability.
 Introduced acceptance testing into development process.
@@ -61,7 +62,7 @@ Infrastructure: Azure, Azure Service Bus, Azure Web Site, Azure Worker Role, Azu
 Development: Kanban, DDD, CQRS, Event Sourcing, TFS, Jira  
 Stack: ASP.NET MVC, Entity Framework, WCF, Autofac, NSubstitute, xUnit, Miniprofiler  
 
-**Project: MobJizz, UK, London. A high-load entertaining Web portal in adult industry (up to 2M unique users per day).**
+**Project:** MobJizz, UK, London. A high-load entertaining Web portal in adult industry (up to 2M unique users per day).
 Modules: Traffic redirector, End-user website, Webservices for integration with 3rd parties, Reporting system.
 
 Made integrations with 3rd party content provider service, a purchase verification service, a mobile billing service. Worked on the end-user website optimizations and decreased site load during peak time from ~3 seconds to ~0.5s. Improved in-house android application generation process by introducing pool of applications. Refactored code and DB models to be able to write unit tests.
