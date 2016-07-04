@@ -72,7 +72,7 @@ UI: HTML, CSS, Javascript, jQuery
 Development: Scrumbut, TDD, TFS, Jira  
 Stack: ASP.NET MVC, WCF, Entity Framework, Linq2Sql, Autofac, Moq, NSubstitute, NUnit, Topshelf, MSBuild, Miniprofiler, Elmah, NxBRE.  
 
-#### Dec 2010 - Jun 2012, .NET developer
+##### Dec 2010 - Jun 2012, .NET developer
 I worked as a freelancer for customers from various countries and developed tens of applications: client-server WinForms apps, a module for Orchard CMS, tens of apps for trading automation on stock exchanges.
 Technologies: .NET 2.0/3.5, C#, T-SQL, Mql4, NinjaScript  
 Databases: MS SQL Server 2005/2008, SQL CE  
