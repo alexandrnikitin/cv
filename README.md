@@ -5,7 +5,7 @@
 ![Stackoverflow](https://raw.githubusercontent.com/alexandrnikitin/cv/master/images/stackoverflow.png) https://stackoverflow.com/users/974487/alexandr-nikitin  
 ![Gmail](https://raw.githubusercontent.com/alexandrnikitin/cv/master/images/gmail.png) [nikitin.alexandr.a@gmail.com](mailto:nikitin.alexandr.a@gmail.com)  
 ![Skype](https://raw.githubusercontent.com/alexandrnikitin/cv/master/images/skype.png) [nikitin.alexandr.a](skype:nikitin.alexandr.a)  
-![Twitter](https://raw.githubusercontent.com/alexandrnikitin/cv/master/images/ttwitter.png) https://twitter.com/nikitin_a_a  
+![Twitter](https://raw.githubusercontent.com/alexandrnikitin/cv/master/images/twitter.png) https://twitter.com/nikitin_a_a  
 
 ### About Me
 
