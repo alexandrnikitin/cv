@@ -110,5 +110,3 @@ I show up as a public speaker occasionally. I've spoken several times at interna
 Travelling, it gives the ability to see things, people, the world from different angles and be more objective.  
 Cycling, I have a dream to travel around the world on [a bicycle](http://instagram.com/p/lCbB6mPpG7).  
 Trekking, why do people climb [mountains](http://instagram.com/p/nQZoPRvpKr)?  
-
-_And the mole is still digging..._
