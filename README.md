@@ -43,7 +43,7 @@ Stack: Docker, Mesos, Storm, Hadoop.
 
 "Adform is the independent and open full stack ad-tech platform that encompasses creativity, data and trading, servicing media agencies, trading desks, brands and publishers globally."
 
-**Product:** Real-time bidding algorithms, a system that calculates bidding prices and probabilities. Key challenges are: high-performance API that analyzes 10 MM ad placements per second, machine learning algorithms and data infrastructure for training, feature engineering.
+**Product:** Real-time bidding algorithms, a system that calculates bidding prices and probabilities. Key challenges are: high-performance API that analyzes 10 MM ad placements per second, machine learning algorithms and data infrastructure for training, feature engineering.  
 Technologies: Scala, Java, Python, C#  
 Databases: Aerospike, Vertica, PostgreSQL  
 Stack: Spark, Vowpal Wabbit, Netty  
