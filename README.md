@@ -1,7 +1,7 @@
 ## Alexandr Nikitin
 
-![GitHub](https://raw.githubusercontent.com/alexandrnikitin/cv/master/images/github.png) https://github.com/alexandrnikitin  
 ![Blog](https://raw.githubusercontent.com/alexandrnikitin/cv/master/images/blog.png) https://alexandrnikitin.github.io/blog/  
+![GitHub](https://raw.githubusercontent.com/alexandrnikitin/cv/master/images/github.png) https://github.com/alexandrnikitin  
 ![Stackoverflow](https://raw.githubusercontent.com/alexandrnikitin/cv/master/images/stackoverflow.png) https://stackoverflow.com/users/974487/alexandr-nikitin  
 ![Gmail](https://raw.githubusercontent.com/alexandrnikitin/cv/master/images/gmail.png) [nikitin.alexandr.a@gmail.com](mailto:nikitin.alexandr.a@gmail.com)  
 ![Skype](https://raw.githubusercontent.com/alexandrnikitin/cv/master/images/skype.png) [nikitin.alexandr.a](skype:nikitin.alexandr.a)  
@@ -15,9 +15,9 @@ I'm a Software Engineer at Adform focused on server-side, back-end and database 
 
 ### Credo
 
-* I do believe in the Engineering-driven culture. The culture where engineers decide what to do and how to do [to achieve the goals](https://alexandrnikitin.github.io/blog/cross-device-wheel-the-beginning/). This is the most efficient way to build high-quality software.  
+* I do believe in the Engineering-driven culture. The culture where engineers decide what to do and how to do to achieve goals. This is the most efficient way to build high-quality software.  
 * I do believe in the open-source model and [enjoy contributing to open-source projects.](https://github.com/alexandrnikitin/cv#open-source)  
-* I do believe in fast feedback cycles in software. `Pair programming -> Unit tests -> Code review -> Continuous Integration -> Continuous Deployment`, the development process is much more important than methodologies or management.  
+* I do believe in fast feedback cycles in software. `Pair programming -> Automated tests -> Code review -> Continuous Integration -> Continuous Deployment`, the development process is much more important than methodologies or management.  
 * I do believe in automated tests [but don't abuse them.](https://alexandrnikitin.github.io/blog/a-single-purpose-of-automated-testing/)
 
 
@@ -27,13 +27,13 @@ I'm a Software Engineer at Adform focused on server-side, back-end and database 
 ##### Technologies I enjoy and love to work with:  
 Languages/ Platforms: C#/ .NET, Scala/ JVM, SQL, NoSQL.  
 Databases: Aerospike, MSSQL.  
-Infrastructure: Amazon Web Services, Azure, Linux.  
-Stack: Kafka, Netty, Akka, Akka Streams, SBT, Ansible, Scalacheck, Protobuf.  
+Infrastructure: Linux, Ansible, AWS, Azure.  
+Stack: Netty, Akka, Akka Streams, Kafka, Spark.  
 
 ##### Technologies I have experience with:
-Languages/ Platforms: Javascript, HTML, CSS, Java, Python  
-Databases: Cassandra, Redis, Sybase ASE/ ASA, PostgreSQL, Azure Tables, Azure SQL.  
-Stack: ASP.NET MVC, WCF, WinForms, Entity Framework, Docker, Mesos, Storm, Hadoop.  
+Languages/ Platforms: Java, Python, Javascript, HTML, CSS.    
+Databases: Vertica, Cassandra, Redis, Sybase ASE/ ASA, PostgreSQL, Azure Tables, Azure SQL.  
+Stack: Docker, Mesos, Storm, Hadoop.  
 
 
 
@@ -43,12 +43,17 @@ Stack: ASP.NET MVC, WCF, WinForms, Entity Framework, Docker, Mesos, Storm, Hadoo
 
 "Adform is the independent and open full stack ad-tech platform that encompasses creativity, data and trading, servicing media agencies, trading desks, brands and publishers globally."
 
-**Product:** Cross-Device Audience Management, a system that gives the ability to target and recognize users across their different devices. I handled the technical lead role so that all design decisions were on my conscience. We could handle 1.2M RPS with one persistent database call on 4 API nodes and 4 database nodes. Ask me how :smile: There's ubiquitous Big data, of course, 8B of events.  
+**Product:** Real-time bidding algorithms, a system that calculates bidding prices and probabilities. Key challenges are: high-performance API that analyzes 10 MM ad placements per second, machine learning algorithms and data infrastructure for training, feature engineering.
+Technologies: Scala, Java, Python, C#  
+Databases: Aerospike, Vertica, PostgreSQL  
+Stack: Spark, Vowpal Wabbit, Netty  
+
+**Product:** Cross-Device Audience Management, a system that gives the ability to target and recognize users across their different devices. I held the technical lead role so that all design decisions were on my conscience. We could handle 1.2M RPS with one persistent database call on 4 API nodes and 4 database nodes. Ask me how :smile: There's ubiquitous Big data, of course, 8B of events per day, real-time streaming, event-driven distributed architecture.  
 Technologies: Scala, C#  
 Databases: Aerospike, Redis, MSSQL  
 Stack: Netty, Akka, Akka Streams, Kafka, Storm    
 
-**Product:** Real-time bidding, Demand Side Platform, A high-load and low latency platform to facilitate buying of online advertising. It can handle more than 1.5 Million RPS with latencies below 50ms. I was focused on integrations, refactoring and performance.  
+**Product:** Real-time bidding, Demand Side Platform, A high-load and low latency platform to facilitate buying of online advertising. It can handle more than 1.5 Million RPS with latencies below 50ms. I worked on integrations, quality and performance areas.  
 Technologies: C#, T-SQL  
 Databases: Aerospike, Cassandra, MSSQL  
 
@@ -87,23 +92,24 @@ Stack: ASP.NET MVC, Linq2Sql, JustMock, MSTest, HtmlAgilityPack, WatiN.
 
 ##### Dec 2007 - Dec 2010, Subject Matter Expert at "Ivestbank", Russia, Moscow
 
-I worked on Automated Banking System and was involved in the entire cycle of product development, gathering and analyzing requirements, designing and developing features, testing and supporting them. I developed numerous modules from data loaders to the module that covered full accounting cycle of securities, from numerous reports to template system for MS Word/ Excel. Did work on database optimization and refactoring.  
+I worked on Automated Banking System and was involved in the entire cycle of product development, gathering and analyzing requirements, designing and developing features, testing and supporting them. I developed numerous modules from data loaders to a module that covered full accounting cycle of securities, from numerous reports to template engine for MS Word/ Excel. I worked on database optimization and refactoring.  
 Technologies: Sybase PowerBuilder PowerScript, T-SQL, PL/pgSQL, .NET 2.0  
 Databases: Sybase ASE 12 / ASA 9, MS SQL Server 2000, Oracle, Postgresql  
 
 ### Open-source
 
 I do believe in the open-source model and enjoy contributing to open-source projects. It leads to better quality, transparency and interoperability.   
-I'm a co-author of [NSubstitute](https://nsubstitute.github.io/), a friendly substitute for .NET mocking frameworks. At the moment I'm working on [the .NET Core support](https://github.com/nsubstitute/NSubstitute/pull/197).  
-I'm a co-author of [strftime.js](https://github.com/samsonjs/strftime), a high-performance date/ time formatting library for Javascript. I rewrote the library from scratch and improved performance by 10-20 times.  
-I contributed to [Autofac](https://autofac.org/), an addictive Inversion of Control container for .NET. I fixed [a couple](https://github.com/autofac/Autofac/pull/542) of [nontrivial issues](https://github.com/autofac/Autofac/pull/528).  
+I'm a co-author of [NSubstitute](https://nsubstitute.github.io/), a friendly substitute for .NET mocking frameworks. I've added [.NET Core support](https://github.com/nsubstitute/NSubstitute/pull/197) recently.  
+I'm a co-author of [strftime.js](https://github.com/samsonjs/strftime), a high-performance date and time formatting library for Javascript. I rewrote the library from scratch and improved performance by 10-20 times.  
+I wrote [the fastest Bloom filter for JVM](https://github.com/alexandrnikitin/bloom-filter-scala) that is much faster than Googles's or Twitter's 😄  
 I have several useful libraries and numerous contributions on github. [Take a look please.](https://github.com/alexandrnikitin)
 
 
 
 ### Public Fails
 
-I show up as a public speaker occasionally. I've spoken several times at internal (un)conferences and also at external meetups and conferences. You can find [some slides on github](https://github.com/alexandrnikitin/slides). There's [a conference video publicly available on youtube](https://www.youtube.com/watch?v=Yp4yQQqb2VI) if you want to take a look at me. I've led a few workshops, you can find [some materials on github too](https://github.com/alexandrnikitin/workshops). I write [a blog and enjoy doing it](https://alexandrnikitin.github.io/blog/).
+I write [a blog and enjoy doing it](https://alexandrnikitin.github.io/blog/).
+I show up as a public speaker occasionally. I've spoken several times at internal (un)conferences and also at external meetups and conferences. You can find [some slides on github](https://github.com/alexandrnikitin/slides). There's even [a conference video publicly available on youtube](https://www.youtube.com/watch?v=Yp4yQQqb2VI) if you want to take a look at me.
 
 ### Hobbies & Interests
 
