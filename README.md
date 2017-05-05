@@ -17,7 +17,7 @@ I'm a Software Engineer at Adform focused on server-side, back-end and database 
 
 * I do believe in the Engineering-driven culture. The culture where engineers decide what to do and how to do to achieve goals. This is the most efficient way to build high-quality software.  
 * I do believe in the open-source model and [enjoy contributing to open-source projects.](https://github.com/alexandrnikitin/cv#open-source)  
-* I do believe in fast feedback cycles in software. `Pair programming -> Automated tests -> Code review -> Continuous Integration -> Continuous Deployment`, the development process is much more important than methodologies or management.  
+* I do believe in fast feedback cycles in software development. `Pair programming -> Automated tests -> Code review -> Continuous Integration -> Continuous Deployment`, the development process is much more important than methodologies or management.  
 * I do believe in automated tests [but don't abuse them.](https://alexandrnikitin.github.io/blog/a-single-purpose-of-automated-testing/)
 
 
@@ -39,7 +39,7 @@ Stack: Docker, Mesos, Storm, Hadoop.
 
 ### Professional Experience
 
-##### Jul 2014 - Present, Senior Software/ Data Engineer at "Adform", Lithuania, Vilnius
+#### Jul 2014 - Present, Senior Software/ Data Engineer at "Adform", Lithuania, Vilnius
 
 "Adform is the independent and open full stack ad-tech platform that encompasses creativity, data and trading, servicing media agencies, trading desks, brands and publishers globally."
 
@@ -57,7 +57,7 @@ Stack: Netty, Akka, Akka Streams, Kafka, Storm
 Technologies: C#, T-SQL  
 Databases: Aerospike, Cassandra, MSSQL  
 
-##### Jun 2012 - Mar 2014, Senior .NET developer at "Ciklum", Belarus, Minsk
+#### Jun 2012 - Mar 2014, Senior .NET developer at "Ciklum", Belarus, Minsk
 
 "Ciklum is a global technology partner delivering software engineering excellence and IT solutions to Fortune 500 companies and organisations alike."
 
@@ -82,7 +82,7 @@ UI: HTML, CSS, Javascript, jQuery
 Development: Scrumbut, TDD, TFS, Jira  
 Stack: ASP.NET MVC, WCF, Entity Framework, Linq2Sql, Autofac, Moq, NSubstitute, NUnit, Topshelf, MSBuild, Miniprofiler, Elmah, NxBRE.  
 
-##### Dec 2010 - Jun 2012, .NET developer, freelance
+#### Dec 2010 - Jun 2012, .NET developer, freelance
 
 I worked as a freelancer for customers from various countries and developed tens of applications: client-server WinForms apps, a module for Orchard CMS, tens of algorithms for trading automation on stock exchanges.  
 Technologies: .NET 2.0/ 3.5, C#, T-SQL, Mql4, NinjaScript  
@@ -90,11 +90,13 @@ Databases: MS SQL Server 2005/ 2008, SQL CE
 UI: WinForms, HTML, CSS, Javascript, jQuery  
 Stack: ASP.NET MVC, Linq2Sql, JustMock, MSTest, HtmlAgilityPack, WatiN.  
 
-##### Dec 2007 - Dec 2010, Subject Matter Expert at "Ivestbank", Russia, Moscow
+#### Dec 2007 - Dec 2010, Subject Matter Expert at "Ivestbank", Russia, Moscow
 
 I worked on Automated Banking System and was involved in the entire cycle of product development, gathering and analyzing requirements, designing and developing features, testing and supporting them. I developed numerous modules from data loaders to a module that covered full accounting cycle of securities, from numerous reports to template engine for MS Word/ Excel. I worked on database optimization and refactoring.  
 Technologies: Sybase PowerBuilder PowerScript, T-SQL, PL/pgSQL, .NET 2.0  
 Databases: Sybase ASE 12 / ASA 9, MS SQL Server 2000, Oracle, Postgresql  
+
+
 
 ### Open-source
 
