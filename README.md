@@ -27,7 +27,7 @@ Stack: **Netty**, **Akka/ Akka Streams**, Spark, Storm.
 
 >"Adform is the independent and open full stack ad-tech platform that encompasses creativity, data and trading, servicing media agencies, trading desks, brands and publishers globally."
 
-**Product:** Real-time bidding Algorithms, a system that calculates bidding prices and probabilities of events. Key challenges are: large amount of data (10B events per day), high-performance APIs (1M RPS and 15M ads per second). I work on data infrastructure for data scientists, serving layer for algorithms, A/B testing service, algorithms' training process and feature engineering for algorithms.  
+**Product:** Real-time bidding Algorithms, a system that calculates bidding prices and probabilities of events. Key challenges are: large amount of data (10B events per day), high-performance APIs (1M RPS and 15M ads per second). I work on data infrastructure for data scientists, serving layer for algorithms, A/B testing service, algorithms' training process and feature engineering for algorithms. I took part in Look-alike algorithm refactoring and improvements.  
 Languages: Scala, Java, Python, C#  
 Databases: Aerospike, Vertica, PostgreSQL  
 Stack: Kafka, Spark, Flink, Akka Streams, Netty, Vowpal Wabbit  
