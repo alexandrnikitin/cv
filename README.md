@@ -17,33 +17,33 @@ I'm a Software Engineer at Adform (Ad Tech industry) focused on server-side, bac
 Languages: **C#**, **Scala**, Java, Python, SQL.  
 Databases: KV (**Aerospike**) SQL (**MSSQL**, Sybase, PostgreSQL), Column (**Vertica**)  
 Platforms: **.NET**, **JVM**, **Kafka**  
-Infrastructure: **Linux**, **Ansible**, AWS, Azure.  
-Stack: Netty, Akka, Akka Streams, Spark, Docker, Mesos, Storm, Hadoop, Ceph.  
+Infrastructure: **Linux**, **Ansible**, Docker, Mesos, AWS, Azure.  
+Stack: **Netty**, **Akka/ Akka Streams**, Spark, Storm.  
 
 
 ### Professional Experience
 
 #### Jul 2014 - Present, Senior Software/ Data Engineer at "Adform", Lithuania, Vilnius
 
-"Adform is the independent and open full stack ad-tech platform that encompasses creativity, data and trading, servicing media agencies, trading desks, brands and publishers globally."
+>"Adform is the independent and open full stack ad-tech platform that encompasses creativity, data and trading, servicing media agencies, trading desks, brands and publishers globally."
 
-**Product:** Real-time bidding Algorithms, a system that calculates bidding prices and probabilities of events. Key challenges are: large amount of data, high-performance API that analyzes 15M ads per second. I work on data infrastructure for data scientists, serving layer for algorithms, machine learning algorithms and feature engineering.  
-Technologies: Scala, Java, Python, C#  
+**Product:** Real-time bidding Algorithms, a system that calculates bidding prices and probabilities of events. Key challenges are: large amount of data: 10B events per day, high-performance APIs: 1M RPS and 15M ads per second. I work on data infrastructure for data scientists, serving layer for algorithms, algorithms training process and feature engineering for algorithms.  
+Languages: Scala, Java, Python, C#  
 Databases: Aerospike, Vertica, PostgreSQL  
 Stack: Kafka, Spark, Flink, Akka Streams, Netty, Vowpal Wabbit  
 
 **Product:** Cross-Device Audience Management, a system that gives the ability to target and recognize users across their different devices. I held the technical lead role so that all design decisions were on my conscience. We could handle 1.2M RPS with one persistent database call on 4 API nodes and 4 database nodes. Ask me how :smile: There's ubiquitous Big data, of course, 5B of user profiles, 8B of events per day, real-time streaming, event-driven distributed architecture.  
-Technologies: Scala, C#  
+Languages: Scala, C#, Java  
 Databases: Aerospike, Redis, MSSQL  
 Stack: Netty, Akka, Akka Streams, Kafka, Storm    
 
 **Product:** Real-time bidding, Demand Side Platform; A high-load and low latency platform to facilitate buying of online advertising. It handles more than 2 Million RPS with latencies below 20ms. I worked on performance, stability and new features.  
-Technologies: C#, T-SQL  
+Languages: C#, SQL  
 Databases: Aerospike, Cassandra, MSSQL  
 
 #### Jun 2012 - Mar 2014, Senior .NET developer at "Ciklum", Belarus, Minsk
 
-"Ciklum is a global technology partner delivering software engineering excellence and IT solutions to Fortune 500 companies and organisations alike."
+>"Ciklum is a global technology partner delivering software engineering excellence and IT solutions to Fortune 500 companies and organisations alike."
 
 **Product:** the MobileHub, UK, London. A high-load mobile affiliate network system (~1M users per day). Modules: Traffic redirector, recommendation engine, customer website with reports, Webservices for integration with 3rd parties.
 
