@@ -9,7 +9,7 @@
 
 ### About Me
 
-I'm a Software Engineer at Adform (Ad Tech industry) focused on server-side, back-end and database development. I have extensive experience in creating scalable, distributed, fail-safe and high-load services. I'm passionate about high-performance systems and enjoy working on nontrivial tasks. I worked for enterprise, outsource, startup companies and as a freelancer in various industries: from banking to adtech, from entertainment to financial.  
+I'm an Engineer at Adform (Ad Tech industry) focused on server-side development. Currently I work on Machine Learning Platform for Data Scientists. I have extensive experience in creating high-load, scalable, distributed and fail-safe services. I'm passionate about high-performance systems and enjoy working on nontrivial tasks.  
 
 
 ### Skills
@@ -18,7 +18,7 @@ Languages: **C#**, **Scala**, Java, Python, SQL.
 Databases: KV (**Aerospike**) SQL (**MSSQL**, Sybase, PostgreSQL), Column (**Vertica**)  
 Platforms: **.NET**, **JVM**, **Kafka**  
 Infrastructure: **Linux**, **Ansible**, Docker, Mesos, AWS, Azure.  
-Stack: **Netty**, **Akka/ Akka Streams**, Spark, Storm.  
+Stack: **Netty**, **Akka/ Akka Streams**, Spark, Storm, Protobuf.    
 
 
 ### Professional Experience
@@ -27,17 +27,17 @@ Stack: **Netty**, **Akka/ Akka Streams**, Spark, Storm.
 
 >"Adform is the independent and open full stack ad-tech platform that encompasses creativity, data and trading, servicing media agencies, trading desks, brands and publishers globally."
 
-**Product:** Real-time bidding Algorithms, a system that calculates bidding prices and probabilities of events. Key challenges are: large amount of data (10B events per day), high-performance APIs (1M RPS and 15M ads per second). I work on data infrastructure for data scientists, serving layer for algorithms, A/B testing service, algorithms' training process and feature engineering for algorithms. I took part in Look-alike algorithm refactoring and improvements.  
+**Product:** Real-time bidding Algorithms, a system that calculates bidding prices and predicts probabilities of events. Key challenges are: large amount of data (10B events per day), high-performance APIs (1M RPS and 15M predictions per second). I work on data infrastructure for data scientists, serving layer for algorithms, A/B testing service, algorithms' training process and feature engineering for algorithms. I took part in Look-alike algorithm refactoring and improvements.  
 Languages: Scala, Java, Python, C#  
 Databases: Aerospike, Vertica, PostgreSQL  
 Stack: Kafka, Spark, Flink, Akka Streams, Netty, Vowpal Wabbit  
 
-**Product:** Cross-Device Audience Management, a system that gives the ability to target and recognize users across their different devices. Key challenges are: new product from scratch, big data, high-load. I held the technical lead role so that all design decisions were on my conscience. We could handle 1.2M RPS with one persistent database call on 4 API nodes and 4 database nodes. Ask me how :smile: There's ubiquitous Big data, of course, 5B of user profiles, 8B of events per day, real-time streaming, event-driven distributed architecture.  
+**Product:** Cross-Device Audience Management, a system that gives the ability to target and recognize users across their different devices. Key challenges are: development of new product from scratch, big data, high-load. I held the technical lead role so that all design decisions were on my conscience. We could handle 1+ RPS with one persistent database call on 4 API nodes and 4 database nodes. Ask me how :smile: There's ubiquitous Big data, of course, 5B of user profiles, 8B of events per day, real-time streaming, event-driven distributed architecture.  
 Languages: Scala, C#, Java  
 Databases: Aerospike, Redis, MSSQL  
-Stack: Netty, Akka, Akka Streams, Kafka, Storm    
+Stack: Netty, Akka, Akka Streams, Kafka, Storm  
 
-**Product:** Real-time bidding, Demand Side Platform; A high-load and low latency platform to facilitate buying of online advertising. It handles more than 2 Million RPS with latencies below 20ms. I worked on performance, stability and new features. I witnessed the load growth from 200K to 1M RPS.  
+**Product:** Real-time bidding, Demand Side Platform; A high-load and low latency platform to facilitate buying of online advertising. It handles more than 2 Million RPS with latency below 20ms. I worked on performance, stability and new features. I witnessed the load growth from 200K to 1M RPS.  
 Languages: C#, SQL  
 Databases: Aerospike, Cassandra, MSSQL  
 
@@ -60,7 +60,7 @@ Stack: C#, T-SQL, MSSQL, HTML, CSS, Javascript, jQuery, ASP.NET MVC, WCF, Entity
 
 #### Dec 2010 - Jun 2012, .NET developer, freelance
 
-I worked as a freelancer for customers from various countries and developed dozens of applications: client-server WinForms apps, a module for Orchard CMS, tens of trading automation algorithms for stock exchanges.  
+I worked as a freelancer for customers from various countries and developed dozens of applications: client-server apps, modules for website CMSes, dozens of trading automation algorithms for stock exchanges.  
 Stack: .NET, C#, T-SQL, Mql4, NinjaScript, MSSQL, SQL CE, WinForms, HTML, CSS, Javascript, jQuery, ASP.NET MVC.  
 
 #### Dec 2007 - Dec 2010, Subject Matter Expert at "Ivestbank", Russia, Moscow
@@ -73,17 +73,17 @@ Stack:  Sybase ASE, MSSQL, Oracle, Postgresql, Sybase PowerBuilder PowerScript, 
 
 * I do believe in the Engineering-driven culture. The culture where engineers drive the process and achieve goals. This is the most efficient way to build high-quality software.  
 * I do believe in the open-source model and enjoy contributing to open-source projects.  
-* I do believe in fast feedback cycles in software development. `Pair programming -> Automated tests -> Code review -> Continuous Integration -> Continuous Deployment`, the development process is much more important than methodologies and management.  
+* I do believe in fast feedback cycles and data-drive decisions in software development. `Pair programming -> Automated tests -> Code review -> Continuous Integration -> Continuous Deployment -> A/B testing`, the development process is much more important than methodologies and management.  
 
 
 ### Open-source
 
-I do believe in the open-source model and enjoy contributing to open-source projects. It leads to better quality, transparency and interoperability.   
-I'm a co-author of [NSubstitute](https://nsubstitute.github.io/), a friendly substitute for .NET mocking frameworks.  
-I'm a co-author of [strftime.js](https://github.com/samsonjs/strftime), a high-performance date and time formatting library for Javascript. I rewrote the library from scratch and improved performance by 10-20 times.  
-I wrote [the fastest Bloom filter for JVM](https://github.com/alexandrnikitin/bloom-filter-scala) that is much faster than Googles's or Twitter's 😄  
+I do believe in the open-source model and enjoy contributing to open-source projects. It leads to better quality, transparency and interoperability.  
+I'm a co-author of [NSubstitute](https://nsubstitute.github.io/), one of the most popular (and imho the best :blush:) mocking frameworks for .NET.  
+I'm a co-author of [strftime.js](https://github.com/samsonjs/strftime), a high-performance date and time formatting library for Javascript. I rewrote the library from scratch and improved performance by 10-20x.  
+I wrote [the fastest Bloom filter for JVM](https://github.com/alexandrnikitin/bloom-filter-scala) which is much faster than Googles's or Twitter's 😄  
 [Bounded multiple producers multiple consumers queue](https://github.com/alexandrnikitin/MPMCQueue.NET) was also an interesting experience  
-There are other libraries and numerous contributions on github. [TAL](https://github.com/alexandrnikitin)
+There are other libraries and numerous contributions on github. [PTAL](https://github.com/alexandrnikitin)
 
 
 ### Public Fails
